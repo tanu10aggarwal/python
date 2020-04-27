@@ -23,6 +23,7 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
+        print ('hi')
         singleNumber = 0
         for num in nums:
             singleNumber ^= num
